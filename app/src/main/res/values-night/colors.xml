@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#181818</color>
+    <color name="colorPrimary">#181818</color>
+    <color name="colorPrimaryDark">#181818</color>
+    <color name="colorAccent">#3D87FF</color>
+
+    <!--字体颜色-->
+    <color name="text_color_in_general_back">#F7F7F7</color>
+    <color name="text_color_in_light_back">#181818</color>
+    <color name="text_color_in_dark_back">#FFFFFF</color>
+    <!--背景颜色-->
+    <color name="general_back">#181818</color>\
+    <color name="flinty_general_back">#30181818</color>
+    <color name="color_back">#000000</color>
+    <color name="light_back">#F7F7F7</color>
+    <color name="dark_back">#181818</color>
+
+    <!--home_tab-->
+    <color name="home_tab_background_color">#000000</color>
+    <color name="home_tab_text_color">#8A8A8A</color>
+    <color name="home_tab_text_color_clicked">#ABDCF4</color>
+</resources>

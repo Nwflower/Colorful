@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.InspirationFragment">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ToolBarHeight"
+        android:background="@color/colorPrimary">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/ToolBarHeight"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/inspiration_tab_1"
+                android:layout_width="48dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:gravity="center"
+                android:text="@string/inspiration_tab_1"
+                android:textColor="@color/text_color_in_toolBar_back"
+                android:textSize="@dimen/inspiration_tab_text"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:textSize="@dimen/inspiration_tab_text"
+                android:textColor="@color/text_color_in_toolBar_back"
+                android:gravity="center"
+                android:id="@+id/inspiration_tab_2"
+                android:layout_width="48dp"
+                android:layout_height="match_parent"
+                android:text="@string/inspiration_tab_2"
+                android:layout_marginStart="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:textSize="@dimen/inspiration_tab_text"
+                android:textColor="@color/text_color_in_toolBar_back"
+                android:gravity="center"
+                android:id="@+id/inspiration_tab_3"
+                android:layout_width="48dp"
+                android:layout_height="match_parent"
+                android:text="@string/inspiration_tab_3"
+                android:layout_marginStart="20dp"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/inspiration_viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/ToolBarHeight" />
+</FrameLayout>

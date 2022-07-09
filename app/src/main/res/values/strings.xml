@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">多彩</string>
+    <string name="app_slogan">发现五彩斑斓的世界</string>
+    <string name="app_copyright1">多彩开发团队 版权所有</string>
+    <string name="app_copyright2">Copyright ©2020–2021 colorful All Rights Reserved.</string>
+
+    <!--标题-->
+    <string name="home_tab_inspiration">灵感</string>
+    <string name="home_tab_personal">专属</string>
+    <string name="home_tab_color">多彩</string>
+    <string name="home_tab_mine">我</string>
+    <string name="inspiration_tab_1">渐变</string>
+    <string name="inspiration_tab_2">配色</string>
+    <string name="inspiration_tab_3">色集</string>
+    <string name="gradient">渐变</string>
+    <string name="about">关于</string>
+    <string name="setting">设置</string>
+    <!--颜色名称-->
+    <string name="colorType1">HEX</string>
+    <string name="colorType2">RGB</string>
+    <string name="colorType3">HSV</string>
+    <string name="colorType4">CMYK</string>
+    <string name="colorType5">HSL</string>
+    <string name="colorType6">Lab</string>
+    <!--slogan及名称-->
+    <string name="MakeColorTitle">调色</string>
+    <string name="GetColorTitle">取色</string>
+    <string name="TakeColorTitle">拍色</string>
+    <string name="MakeColorText">悦动你的指尖</string>
+    <string name="GetColorText">记录你的灵感</string>
+    <string name="TakeColorText">探索你的世界</string>
+    <string name="ChineseColorTitle">中国传统配色</string>
+    <string name="ChineseColorText">如果奇迹有颜色，那一定是中国红</string>
+    <string name="JapanColorTitle">日本传统配色</string>
+    <string name="JapanColorText">穿梭传统配色长河，领略传统配色之美</string>
+    <!--item-->
+    <string name="color_save">保存颜色</string>
+    <string name="app_information">应用信息</string>
+    <string name="app_qq_group">加入交流群</string>
+    <string name="app_qq_group_text">获取内测更新、提出建议或反馈</string>
+    <string name="app_develop">开发参与</string>
+    <string name="android_friend">Android应用友链</string>
+    <string name="app_version">当前版本</string>
+    <string name="item_getNew">检查更新</string>
+    <string name="item_getNewText">单击此处获取最新更新</string>
+    <string name="mine_user_name">未登录</string>
+    <string name="mine_user_vip">账号系统已经鸽了</string>
+    <!--开发名单-->
+    <string name="app_developer1">零寒</string>
+    <string name="app_developer1Text">多彩 开发者</string>
+    <string name="app_developer2">极光花溟</string>
+    <string name="app_developer2Text">多彩 UI设计</string>
+    <string name="app_developer3">我是天小正</string>
+    <string name="app_developer3Text">多彩 图标绘制</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--图片按钮-->
+    <string name="image_copy">复制颜色</string>
+    <string name="image_refresh">随机颜色</string>
+    <string name="image_lick">收藏</string>
+    <string name="image_seek">调整</string>
+    <string name="image_plus">微调</string>
+
+    <!-- 设置 -->
+    <string name="title_activity_settings">设置</string>
+    <string name="makeColor_setting">调色设置</string>
+    <string name="smallWindow_title">小窗模式</string>
+    <string name="smallWindow_summary_on">小窗已开启</string>
+    <string name="smallWindow_summary_off">小窗已关闭</string>
+
+    <!-- 颜色调整 -->
+    <string name="before_color">当前颜色</string>
+    <string name="new_color">新增颜色</string>
+    <string name="seekBarR">R:</string>
+    <string name="seekBarG">G:</string>
+    <string name="seekBarB">B:</string>
+    <string name="seekBarH">H:</string>
+    <string name="seekBarS">S:</string>
+    <string name="seekBarV">V:</string>
+    <string name="color_seek">调整颜色</string>
+    <string name="ok">确定</string>
+    <string name="image">相册</string>
+    <string name="friend1Title">清风</string>
+    <string name="friend1Text">一个高效率生产合集，为生活提供诸多方便</string>
+</resources>
